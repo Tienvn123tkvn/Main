@@ -2537,7 +2537,7 @@ function Update:Window(text,logo,keybind)
     UserText.TextColor3 = Color3.fromRGB(255, 255, 255)
     UserText.Size = UDim2.new(0, 80, 0, 25)
     UserText.Font = Enum.Font.GothamSemibold
-    UserText.Text = "Ziner-hub"
+    UserText.Text = "Hazzy Hub"
     UserText.TextScaled = true
     UserText.TextSize = 17.000
     UserText.TextWrapped = true
@@ -4096,7 +4096,7 @@ end
 
 local FlurioreLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ErutTheTeru/uilibrary/main/flurioremain.lua"))()
 
-local Library = Update:Window("Ziner-hub","",Enum.KeyCode.RightControl);
+local Library = Update:Window("Hazzy Hub","",Enum.KeyCode.RightControl);
 local H = Library:AddTab("Info","12950870585")
 local S = Library:AddTab("Shop","6031265976")
 local T = Library:AddTab("Status","")
@@ -4111,17 +4111,17 @@ local RaceV4 = Library:AddTab("UpGrade Race","")
 local Item = Library:AddTab("Item & Upgrade","")
 
 H:AddLine()
-H:AddLabel("Ziner-hub [ Script Free ]")
+H:AddLabel("Hazzy Hub [ Script Free ]")
 
 H:AddSeperator("Credits")
 
-H:AddLabel("Script Made By Kai wibu")
+H:AddLabel("Script Made By huypham9394")
 
-H:AddLabel("Join My Discord Ziner-hub")
+H:AddLabel("Join My Discord Hazzy Hub!")
 
 H:AddButton("Copy Discord Link",function()
   FlurioreLib:MakeNotify({
-    ["Title"] = "Ziner-hub",
+    ["Title"] = "Hazzy Hub",
     ["Description"] = "Notification",
     ["Color"] = Color3.fromRGB(255, 128, 0),
     ["Content"] = "Link Copied ✅",
@@ -4391,7 +4391,7 @@ T:AddButton("Hop Server",function()
   HopFrame.Parent = HopGui
 
   NameHub.Font = Enum.Font.Gotham
-  NameHub.Text = "Ziner-hub"
+  NameHub.Text = "Hazzy Hub"
   NameHub.TextColor3 = Color3.fromRGB(175.00000476837158, 187.00000405311584, 230.00000149011612)
   NameHub.TextSize = 85
   NameHub.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -4401,7 +4401,7 @@ T:AddButton("Hop Server",function()
   NameHub.BorderSizePixel = 0
   NameHub.Position = UDim2.new(0.5, 0, 0.5, -45)
   NameHub.Size = UDim2.new(0, 200, 0, 80)
-  NameHub.Name = "Ziner-hub"
+  NameHub.Name = "Hazzy Hub"
   NameHub.Parent = HopFrame
 
   UIStroke.Color = Color3.fromRGB(175.00000476837158, 187.00000405311584, 230.00000149011612)
@@ -6822,7 +6822,7 @@ spawn(function()
       if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
         wait(2.0)
           FlurioreLib:MakeNotify({
-            ["Title"] = "Ziner-hub",
+            ["Title"] = "Hazzy Hub",
             ["Description"] = "Notification",
             ["Color"] = Color3.fromRGB(255, 128, 0),
             ["Content"] = "Moon : " .. function8() .. " | ".. CheckMoon() .. " | " .. function7(),
@@ -6831,7 +6831,7 @@ spawn(function()
           })
       elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
         FlurioreLib:MakeNotify({
-            ["Title"] = "Ziner-hub",
+            ["Title"] = "Hazzy Hub",
             ["Description"] = "Notification",
             ["Color"] = Color3.fromRGB(255, 128, 0),
             ["Content"] = "Moon : " .. function8() .. " | ".. CheckMoon() .. " | " .. function7(),
@@ -6841,7 +6841,7 @@ spawn(function()
         Hop()
       elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
         FlurioreLib:MakeNotify({
-            ["Title"] = "Ziner-hub",
+            ["Title"] = "Hazzy Hub",
             ["Description"] = "Notification",
             ["Color"] = Color3.fromRGB(255, 128, 0),
             ["Content"] = "Moon : " .. function8() .. " | ".. CheckMoon() .. " | " .. function7(),
@@ -6851,7 +6851,7 @@ spawn(function()
         Hop()
       elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
         FlurioreLib:MakeNotify({
-            ["Title"] = "Ziner-hub",
+            ["Title"] = "Hazzy Hub",
             ["Description"] = "Notification",
             ["Color"] = Color3.fromRGB(255, 128, 0),
             ["Content"] = "Moon : " .. function8() .. " | ".. CheckMoon() .. " | " .. function7(),
@@ -6861,7 +6861,7 @@ spawn(function()
         Hop()
       else
         FlurioreLib:MakeNotify({
-            ["Title"] = "Ziner-hub",
+            ["Title"] = "Hazzy Hub",
             ["Description"] = "Notification",
             ["Color"] = Color3.fromRGB(255, 128, 0),
             ["Content"] = "Moon : " .. function8() .. " | ".. CheckMoon() .. " | " .. function7(),
@@ -7028,7 +7028,7 @@ end)
 RaceV4:AddButton("Get Quest Race V3",function()
   game.ReplicatedStorage.Remotes.CommF_:InvokeServer("Wenlocktoad", "2")
   FlurioreLib:MakeNotify({
-    ["Title"] = "Ziner-hub",
+    ["Title"] = "Hazzy Hub",
     ["Description"] = "Notification",
     ["Color"] = Color3.fromRGB(255, 128, 0),
     ["Content"] = "Claimed Quest V3",
@@ -7072,7 +7072,7 @@ end)
 RaceV4:AddButton("Upgrade Race V3",function()
   game.ReplicatedStorage.Remotes.CommF_:InvokeServer("Wenlocktoad", "3")
   FlurioreLib:MakeNotify({
-    ["Title"] = "Ziner-hub",
+    ["Title"] = "Hazzy Hub",
     ["Description"] = "Notification",
     ["Color"] = Color3.fromRGB(255, 128, 0),
     ["Content"] = "Upgrade Race V3",
@@ -7209,7 +7209,7 @@ task.spawn(function()
             v352 = game.ReplicatedStorage.Remotes.CommF_:InvokeServer("Ectoplasm", "Buy", 4)
             if v352 == 1 then
               FlurioreLib:MakeNotify({
-                ["Title"] = "Ziner-hub",
+                ["Title"] = "Hazzy Hub",
                 ["Description"] = "Script Status",
                 ["Color"] = Color3.fromRGB(255, 128, 0),
                 ["Content"] = "Sucess Trade For Ghoul Race.\nBreaking Function....",
@@ -7219,7 +7219,7 @@ task.spawn(function()
               break
             elseif v352 == 2 then
               FlurioreLib:MakeNotify({
-                ["Title"] = "Ziner-hub",
+                ["Title"] = "Hazzy Hub",
                 ["Description"] = "Script Status",
                 ["Color"] = Color3.fromRGB(255, 128, 0),
                 ["Content"] = "Already Got Ghoul Race.\nBreaking Function....",
@@ -7507,7 +7507,7 @@ end
 function CheckSomeThing()
   if not _G.Stifimi then
     FlurioreLib:MakeNotify({
-      ["Title"] = "Ziner-hub",
+      ["Title"] = "Hazzy Hub",
       ["Description"] = "Notification",
       ["Color"] = Color3.fromRGB(255, 128, 0),
       ["Content"] = "Turn On Auto Farm",
@@ -7725,3 +7725,8 @@ game:GetService"RunService".Heartbeat:Connect(function()
         end
     end
 end)
+game.StarterGui:SetCore("SendNotification", {
+Title = "Ziner-hub",
+Text = "loading...",
+Duration = Number,
+})
