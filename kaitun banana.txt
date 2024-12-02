@@ -1,0 +1,74 @@
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = ""
+getgenv().SettingFarm ={
+    ["Fast Attack"] = {
+        ["Speed Attack"] = 0,
+        ["Attack Duration"] = 4,
+        ["Speed Attack if Cooldown"] = 0.15,
+        ["Attack Cooldown"] = 5,
+    },
+    ["Reset Teleport"] = {
+        ["Enabled"] = true,
+        ["Delay Reset"] = 3,
+        ["Item Dont Reset"] = {
+            ["Fruit"] = {
+                ["Enabled"] = false,
+                ["All Fruit"] = true, 
+                ["Select Fruit"] = {
+                    ["Enabled"] = false,
+                    ["Fruit"] = {},
+                },
+            },
+        },
+    },
+    ["Lock FPS"] = {
+        ["Enabled"] = false,
+        ["FPS"] = 60,
+    },
+    ["Auto Awaken Fruit"] = true, -- dont support dough and phoenix
+    ["GodHuman"] = true,
+    ["Priority Get Melee Sea 3"] = false,
+    ["Auto Saber"] = true,
+    ["Auto Pole"] = false,
+    ["Cursed Dual Katana"] = true,
+    ["SoulGuitar"] = false,
+    ["Shark Anchor"] = false, --i have cdk and god and soulguitar
+    ["Farm Mastery Fruit If Lvl Max"] = false,
+    ["Hop Fruit 1M Quest Third Sea"] = false,
+    ["White Screen"] = true,
+    ["Hop if Near Farm Area"] = false,
+    ["Auto Race V2-V3"] = true,
+    ["Auto Pull Lever"] = false,
+    ["Auto Get Mirror Fractal"] = true,
+    ["Lock Fragment"] = {
+        ["Enabled"] = true,
+        ["Fragments"] = 25000
+    },
+    ["Buy Haki Color Legendary"] = true, --- it will buy if u have sgt and godhuman and dont have Valkyrie Helm
+    ["Select Hop"] = { -- 70% will have it
+        ["Hop Find Full Moon Soul Guitar"] = false,
+        ["Hop Find Rip Indra Get Tushita"] = false, --- u need have sgt and godhuman
+        ["Hop Find Raids Castle [CDK]"] = false,
+        ["Hop Find Cake Queen [CDK]"] = false,
+    },
+    ["Race"] = {
+        ["Enabled"] = true,
+        ["Auto Roll Race"] = true,
+        ["Select Race"] =  "Mink", -- Human, Mink, Fishman
+    },
+    ["Buy Haki"] = {
+        ["Enhancement"] = true,
+        ["Skyjump"] = true,
+        ["Flash Step"] = true,
+        ["Observation"] = true,
+    },
+    ["Blox Fruit Sniper"] = {},
+    ["Lock Fruit"] = {"Kitsune-Kitsune","Leopard-Leopard","Dragon-Dragon","Dough-Dough"},
+    ["Webhook"] = {
+        ["Enabled"] = false,
+        ["WebhookUrl"] = "",
+    }
+}
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
