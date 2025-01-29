@@ -1297,7 +1297,7 @@ function CheckBossDimension()
 		end
 	end
 end;
-local L_33_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/Tienvn123tkvn/Test/main/ZINERHUB_Ui.lua"))()
+local L_33_ = loadstring(game:HttpGet("https://you.whimper.xyz/sources/CokkaHub/ui.lua"))()
 local L_34_ = L_33_:Window("Ziner hub X KING OF SEA ", Enum.KeyCode.LeftControl)
 print("| Ziner hub | Anti AFK")
 game:GetService("Players").LocalPlayer.Idled:connect(function()
